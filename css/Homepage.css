@@ -1,0 +1,181 @@
+/* Adjusments of The Main Banner*/
+.banner img {
+	width: 100%;
+	height: 438px;
+	object-fit: cover;
+	position: static;
+	float: none;
+}
+
+/* About Us section - flexbox for image & text alignment */
+.about-us {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+/* Adjust the image in the About Us section */
+.about-us img {
+	width: 40%;
+	height: auto;
+	margin: 50px 20px;
+	position: static;
+	float: left;
+
+}
+
+/* Style for the golden button */
+.golden-button {
+	padding: 12px 25px;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	background: linear-gradient(90deg, #d4af37, #ffcc00);
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+	transition: background 0.3s, transform 0.2s;
+	text-transform: uppercase;
+}
+
+/* Hover (Pope-Up) effect for the golden button */
+.golden-button:hover {
+	background: linear-gradient(90deg, #ffcc00, #d4af37);
+	transform: scale(1.05);
+}
+
+/* Active state effect when the button is clicked */
+.golden-button:active {
+	transform: scale(0.95);
+}
+
+/* Changing default color */
+mark {
+	background-color: #D4C774;
+}
+
+
+/* Remove underline links */
+a {
+	text-decoration: none;
+	color: #B3942B;
+}
+
+/* About Us text section - background & styling */
+.about-us-text {
+	max-width: 50%;
+	height: 400px;
+	background-color: #FFF5EC;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* About Us section styling */
+.about-us p {
+	line-height: 1.6;
+	font-size: 17px;
+}
+
+/* Menu images styling */
+.menu img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+	padding-top: 0px;
+	float: left;
+	position: static;
+}
+
+/* Reviews Section Styles */
+.reviews-section {
+	background-color: #FFE1E1;
+	padding: 60px;
+	margin-top: 50px;
+}
+
+/* Reviews Section - header styling*/
+.reviews-section h2 {
+	font-size: 30px;
+	margin-bottom: 30px;
+
+}
+
+/* Individual reviews layout with flexbox and consistent styling */
+.reviews-container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+/* Single review styling */
+.review {
+	background-color: snow;
+	padding: 50px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	max-width: 30%;
+	margin: 10px;
+	text-align: center;
+}
+
+/* Paragraph styling within each review */
+.review p {
+	font-size: 15px;
+	line-height: 1.6;
+	font-weight: bold;
+}
+
+/* Reviewer name styling */
+.review h4 {
+	font-size: 15px;
+	margin-top: 10px;
+	color: #9C893B;
+}
+
+/* Ratings in the review Section */
+.rating {
+	color: #FFD700;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+/* Individual star stylin */
+.rating .star {
+	margin-right: 5px;
+}
+
+/* YouTube Video Section Styles with flexbox */
+.video-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	margin: 20px 0 30px;
+	flex-wrap: wrap;
+
+}
+
+/* Styling for embedded YouTube video */
+.video-section iframe {
+	width: 450px !important;
+	/* Dominating the Adjusments */
+	height: 250px !important;
+	max-width: 100%;
+}
+
+/* Styling for image in the video section */
+.video-section img {
+	width: 300px !important;
+	/* Dominating the Adjusments */
+	height: 360px !important;
+	max-width: 100%;
+	padding-top: 20px;
+	position: static;
+	float: left;
+
+
+}

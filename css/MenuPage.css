@@ -1,0 +1,132 @@
+/* Banner image styles */
+.banner img {
+	position: static;
+	width: 100%;
+	height: 499px;
+	object-fit: cover;
+	float: none;
+}
+
+/* Animation effect on the text */
+@keyframes slideInFromLeft {
+	0% {
+		transform: translateX(-100%);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+/* Animated text */
+.animated-text {
+	font-size: 40px;
+	font-weight: bold;
+	animation: slideInFromLeft 3s ease-out 2s forwards;
+	/* 3s animation, 2s delay */
+}
+
+/* Menu Container styling */
+.menu-container {
+	max-width: 1200px;
+	margin: 0;
+	padding: 20px;
+}
+
+/* Menu heading styles */
+.menu-heading {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.menu-heading h1 {
+	font-size: 3em;
+	margin: 0;
+	color: #333;
+}
+
+/* Category Layout */
+ol.categories {
+	margin: 20px 0;
+	padding-left: 20px;
+}
+
+/* Individual category styles */
+.menu-category {
+	margin-bottom: 40px;
+}
+
+.menu-category h2 {
+	font-size: 2em;
+	color: #333;
+}
+
+/* Product List Layout */
+ul.product-list {
+	list-style: none;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+	gap: 20px;
+}
+
+/* Product Card Styles */
+ul.product-list li {
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	overflow: hidden;
+	text-align: center;
+	transition: transform 0.3s ease;
+}
+
+/* Moves the card upwards on hover */
+ul.product-list li:hover {
+	transform: translateY(-10px);
+}
+
+/* Product Images */
+ul.product-list img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+	position: static;
+	float: none;
+}
+
+/* Product Titles */
+ul.product-list h3 {
+	font-size: 1.5em;
+	color: #333;
+	margin: 10px 0;
+
+}
+
+/* Product Descriptions */
+ul.product-list p {
+	font-size: 1em;
+	color: #666;
+	margin: 0 15px 15px;
+}
+
+/* Product Prices */
+ul.product-list .price {
+	font-size: 1.2em;
+	color: #e74c3c;
+	margin: 0 15px 15px;
+}
+
+/* Nested List Style */
+ul ul {
+	margin-top: 10px;
+	padding-left: 20px;
+	list-style-type: disc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+	ul.product-list img {
+		height: 120px;
+	}
+}

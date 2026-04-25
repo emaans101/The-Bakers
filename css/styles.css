@@ -1,0 +1,167 @@
+/* General Body Styling */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background: linear-gradient(to bottom, #f8f8f8, #FFEFEA);
+	overflow-x: hidden;
+	/* Prevent horizontal overflow (stops horizontal scrolling) */
+}
+
+
+/* Navigation Bar setup with flexbox for layout */
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #F9FAF8;
+	padding: 15px 30px;
+}
+
+/* Logo styling in navbar */
+.logo img {
+	position: relative;
+	height: 100px;
+	width: auto;
+	top: 2px;
+	float: none;
+}
+
+/* Navigation links with flexbox and basic styling */
+.nav-links {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Styles for list items */
+.nav-links li {
+	margin-left: 40px;
+}
+
+/* Styles for anchor tags  */
+.nav-links a {
+	color: #594041;
+	text-decoration: none;
+}
+
+/*  Adds underline effect on hover */
+.nav-links a:hover {
+	text-decoration: underline;
+}
+
+/* Search icon */
+.search-container {
+	display: flex;
+	align-items: center;
+}
+
+/* Styles for the search input field */
+.search-container input {
+	height: 35px;
+	padding: 0 10px;
+	border: 1px solid #594041;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+/* Search icon using an image */
+.search-icon {
+	width: 20px;
+	height: 20px;
+	background-image: url('https://img.icons8.com/material-outlined/24/594041/search.png');
+	margin-left: 5px;
+}
+
+
+/* Header styling */
+h1 {
+	text-align: center;
+	color: #8B4513;
+	margin-bottom: 40px;
+	font-size: 36px;
+	letter-spacing: 2px;
+
+}
+
+h2 {
+	color: #6F4E37;
+	border-bottom: 2px solid #DAA520;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+/* Newsletter Section Styling */
+.newsletter-section {
+	text-align: center;
+	padding: 50px;
+	background-color: #F9FAF8;
+	width: 100vw;
+	margin-top: 20px;
+	border-radius: 10px;
+
+}
+
+.newsletter-section h2 {
+	color: #6F4E37;
+	font-size: 28px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #DAA520;
+	padding-bottom: 10px;
+}
+
+.newsletter-section p {
+	color: #594041;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.newsletter-section input[type="email"] {
+	padding: 10px;
+	width: 280px;
+	max-width: 80%;
+	border: 1px solid #ccc;
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+.newsletter-section button {
+	padding: 10px 20px;
+	background-color: #DAA520;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s;
+}
+
+/* Hover effect for newsletter button */
+.newsletter-section button:hover {
+	background-color: #c18f1b;
+}
+
+/* Footer section styles */
+footer {
+	background-color: #F9FAF8;
+	text-align: center;
+	padding: 20px 0;
+}
+
+
+/* Footer social media link styles with hover effect */
+.social-media a {
+	margin: 0 10px;
+	color: #DAA520;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+/* Highlight social media links on hover */
+.social-media a:hover {
+	color: #FFD700;
+	text-decoration: underline;
+}

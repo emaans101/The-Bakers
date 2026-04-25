@@ -1,0 +1,135 @@
+<!-- Opening tags -->
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Meta Information for responsiveness and compatibility -->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- External Stylesheets and Icons -->
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="css/Contact.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <!-- Favicon and the Title -->
+      <title> Contact - The Bakers</title>
+      <link rel="icon" href="/img/logo.png" type="image/png">
+   </head>
+   <body>
+      <!-- Main Navigation Bar -->
+      <header>
+         <nav>
+            <div class="logo">
+               <!-- Website Logo-->
+               <a href="HomePageB.html">
+               <img src="./img/logo.png.png" alt="The Bakers Logo">  
+               </a>
+            </div>
+            <!-- Navigation links -->
+            <ul class="nav-links">
+               <li><a href="HomePageB.html">Home </a></li>
+               <li><a href="ProductB.html">Menu</a></li>
+               <li><a href="AboutusB.html">About</a></li>
+               <li><a href="ContactUsB.html">Contact</a></li>
+               <li><a href="#address">Address</a></li>
+            </ul>
+            <!-- Search bar -->
+            <div class="search-container">
+               <div class="search-icon"></div>
+               <input type="text" placeholder="Search...">  
+            </div>
+         </nav>
+      </header>
+      <!-- Main Content -->
+      <main>
+         <!-- Styling the text -->
+         <div class="container">
+            <h1 class="highlight">Contact Us</h1>
+            <!-- Locate Us on Map Section -->
+            <div class="map-section">
+               <h2>Locate Us on Map</h2>
+               <hr>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d146409.06424973087!2d55.21481405507476!3d25.276987640072256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f68b0a0f1fb51%3A0xab5c9f1b8e0c4a38!2sAl%20Garhoud%20-%20Dubai%2C%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1630004241675!5m2!1sen!2s"
+                  allowfullscreen="" loading="lazy" style="width: 100%; height: 300px; border: 0; border-radius: 8px;"></iframe>
+            </div>
+            <!-- Feedback Section -->
+            <div class="feedback-section">
+               <h2>Feedback & Suggestions</h2>
+               <hr>
+               <form action="#" method="post" class="feedback-form">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="4" required></textarea>
+                  <!-- Submit button -->
+                  <button type="submit">Submit Feedback</button>
+               </form>
+               <div class="contact-info">
+                  <hr>
+                  <!-- Table for The Bakers Contact Details -->
+                  <table>
+                     <caption id="address" style="color: #032E3D; font-size: 15px;"><strong>The Bakers Contact Details</strong></caption>
+                     <tr>
+                        <th>Info Type</th>
+                        <th colspan="3">Detail </th>
+                     </tr>
+                     <tr>
+                        <td rowspan="2" class="highlight"><strong>Address:</strong></td>
+                        <td colspan="3">Garhoud - Dubai</address>
+                        </td>
+                     </tr>
+                           <address>14 53 St - Al 
+                     <tr>
+                        <td colspan="2">
+                           <address>PO Box 12345</address>
+                        </td>
+                        <td>United Arab Emirates</td>
+                     </tr>
+                     <tr>
+                        <td><strong>Email:</strong></td>
+                        <td colspan="2" class="highlight">contact@thebakers.com</td>
+                        <td>
+                           <p><a href="mailto:contact@thebakers.com" title="Email The Bakers">Email Us</a></p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td><strong>Phone:</strong></td>
+                        <td colspan="2" class="highlight">+971-4-123-4567</td>
+                        <td>
+                           <p><a href="tel:+971-4-123-4567" title="Call The Bakers">Call Us</a></p>
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+         </div>
+      </main>
+      <!-- Newsletter Section signup form -->
+      <div class="newsletter-section" style="text-align: center; padding: 20px; background-color: #F9FAF8; margin-top: 20px;">
+         <h2>Sign Up for Our Newsletter</h2>
+         <p>Stay updated with our latest products and offers. Enter your email below:</p>
+         <form action="#" method="post">
+            <input type="email" name="email" placeholder="Enter your email" required 
+               style="padding: 10px; width: 300px; border: 1px solid #ccc; border-radius: 5px;">
+            <button type="submit" style="padding: 10px 20px; background-color: #DAA520; color: white; border: none; border-radius: 5px; cursor: pointer;">
+            Subscribe
+            </button>
+         </form>
+      </div>
+      <!-- Footer Section -->
+      <footer>
+         <!-- Copyright and social media links in footer -->
+         <div>
+            <p>&copy; 2024 The Bakers Factory. All rights reserved.</p>
+            <div class="social-media">
+               <a href="https://www.facebook.com/TheBakersPK/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i> Facebook</a> |
+               <a href="https://instagram.com/thebakers.ca/?hl=en" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Instagram</a> |
+               <a href="https://www.youtube.com/@thebakers3252" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i> YouTube</a>
+            </div>
+         </div>
+      </footer>
+      <!-- Ending tags --> 
+   </body>
+</html>
